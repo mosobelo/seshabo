@@ -21,6 +21,7 @@ const Login = () => {
         email,
         password,
       });
+      
 console.log(response)
       const token = response.data.token;
 

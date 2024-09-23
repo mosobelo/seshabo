@@ -44,7 +44,7 @@ const Navbar = () => {
       path: "/contact",
     },
     {
-      text: "Hae",
+      text: "Menu",
       icon: <MenuIcon/>,
       path: "/hae",
     },

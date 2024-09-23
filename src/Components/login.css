@@ -1,11 +1,25 @@
 /* Container for the login form */
 .login-container {
   background-color: white;
-  width: 25%;
+  width: 90%; /* Default width for small devices */
+  max-width: 400px; /* Limits the maximum width */
   margin: 50px auto;
   padding: 40px;
   border-radius: 10px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+}
+
+/* Responsive adjustments for tablets and larger screens */
+@media (min-width: 768px) {
+  .login-container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .login-container {
+    width: 25%;
+  }
 }
 
 /* Form title styling */
@@ -68,13 +82,20 @@
 }
 
 .signup-prompt .btn.btn-success {
-  width: 50%;
+  width: 100%; /* Adjust width for smaller devices */
   padding: 10px;
   background-color: #28a745;
   color: white;
   border-radius: 4px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+}
+
+/* Larger screens adjustment */
+@media (min-width: 768px) {
+  .signup-prompt .btn.btn-success {
+    width: 50%; /* Reduces width for larger screens */
+  }
 }
 
 .signup-prompt .btn.btn-success:hover {

@@ -1,7 +1,6 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import BannerImage from "../Assets/home-banner-image.png";
 import "../Components/div.css";
 import { baseUrl } from './utils/config';
 
@@ -39,10 +38,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <div
-        className="leftSide"
-        style={{ backgroundImage: `url(${BannerImage})` }}
-      ></div>
+      
       <div className="rightSide">
         <h1>Contact Us</h1>
 

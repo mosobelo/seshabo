@@ -1,7 +1,7 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
-import { FiArrowRight } from "react-icons/fi";
+// import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
   return (
@@ -19,9 +19,9 @@ const Home = () => {
             Lijo tse monate Re Chakele Mosotho wa hae heso... O tlo ja
             & lijo tse hahang sesole sa 'mele ...#Seshabo Lijo Bophelo ha boo ntle le lijo
           </p>
-          <button className="secondary-button">
+          {/* <button className="secondary-button">
             Order Now <FiArrowRight />{""}
-          </button>
+          </button> */}
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="" />
